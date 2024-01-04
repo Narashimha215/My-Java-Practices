@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+ xsi:schemaLocation="http://www.springframework.org/schema/beans
+http://www.springframework.org/schema/beans/spring-beans-3.0.xsd">
+	<bean id = "c1" class = "com.kn.bean.Cars">
+		<property name="modelNumber" value="111"></property>
+		<property name="company" value="Audio"></property>
+		<property name="price" value="1000000"></property>
+	</bean>
+	<bean id = "c2" class = "com.kn.bean.Cars">
+		<property name="modelNumber" value="222"></property>
+		<property name="company" value="Ford"></property>
+		<property name="price" value="2000000"></property>
+	</bean>
+	<bean id = "c3" class = "com.kn.bean.Cars">
+		<property name="modelNumber" value="333"></property>
+		<property name="company" value="Mahindra"></property>
+		<property name="price" value="1500000"></property>
+	</bean>
+</beans>
